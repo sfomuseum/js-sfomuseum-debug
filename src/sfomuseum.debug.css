@@ -1,0 +1,26 @@
+#sfomuseum-debug {
+	position: fixed;
+	height: 100vh;
+	width: 30vw;
+	overflow: scroll;
+	background-color:#fff;
+	padding: 1rem;
+	font-size:small;
+	z-index: 50000 !important;
+}
+
+.sfomuseum-debug-log {
+	border-bottom:solid thin;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+
+.sfomuseum-debug-log-date {
+	font-weight:700;
+}
+
+.sfomuseum-debug-log-caller {
+	font-style:italic;
+	padding-bottom:1rem;	
+
+}
